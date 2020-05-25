@@ -1,0 +1,11 @@
+﻿
+@using (Html.BeginForm("Buy", "Home", FormMethod.Post))
+{
+    <input type="hidden" value="@ViewBag.BookId" name="BookId" />
+    <p>Введите свое имя: </p>
+    @Html.TextBox("Person", "Введите имя")
+    <p>Введите адрес :</p>
+    @Html.TextBox("Address", "Введите адрес")
+    <p><input type="submit" value="Отправить" /></p>
+}
+

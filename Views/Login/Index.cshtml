@@ -1,0 +1,46 @@
+﻿@model basKet.Models.Login
+
+@{
+    Layout = "~/Views/Shared/_LoginLayout.cshtml";
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Login</title>
+</head>
+
+<body>
+    <div class="wrapper fadeInDown"> 
+        <div id="formContent">
+            <!-- Tabs Titles -->
+            <!-- Icon -->
+            <div class="fadeIn first">
+                <img src="~/Content/img/ball-cartoon.jpg"   id="icon" alt="User Icon" />
+            </div>
+
+            @using (Html.BeginForm("Login", "Login", FormMethod.Post, new { @class = "fadeIn fourth" }))
+            {
+                @Html.AntiForgeryToken()
+
+                <h4>Login</h4>
+                <hr />
+                @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+
+                @Html.EditorFor(model => model.Username, new { htmlAttributes = new { @class = "fadeIn second", @id = "password", @name = "login", @placeholder = "login" } })
+                @Html.ValidationMessageFor(model => model.Username, "", new { @class = "text-danger" })
+                @Html.EditorFor(model => model.Password, new { htmlAttributes = new { @class = "fadeIn third", @id = "password", @name = "login", @placeholder = "password" } })
+                @Html.ValidationMessageFor(model => model.Password, "", new { @class = "text-danger" })
+
+                <input type="submit" class="fadeIn fourth" value="Log In">
+            }
+
+            <div id="formFooter">
+                @Html.ActionLink("Register", "Create", "Register")
+            </div>
+        </div>
+        </div>
+</body>
+</html>
