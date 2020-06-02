@@ -13,7 +13,9 @@ namespace basKet
           
 
             bundles.Add(new ScriptBundle("~/Scripts/").Include(
-                      "~/Scripts/jquery-1.12.1.min.js",
+                       "~/Scripts/jquery-ui-1.12.1.js",
+                       "~/Scripts/jquery-ui-1.12.1.min.js",
+                    "~/Scripts/jquery-1.12.1.min.js",
                       "~/Scripts/popper.min.js",
                       "~/Scripts/bootstrap.min.js",
                       "~/Scripts/aos.js",
@@ -25,6 +27,7 @@ namespace basKet
                       "~/Scripts/custom.js"));
 
             bundles.Add(new StyleBundle("~/Content/css").Include(
+                      "~/Content/jquery-ui.css",
                       "~/Content/bootstrap.min.css",
                       "~/Content/animate.css",
                       "~/Content/owl.carousel.min.css",

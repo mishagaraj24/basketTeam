@@ -1,0 +1,35 @@
+﻿
+@model basKet.Models.Comanda
+    <div>
+        @using (Html.BeginForm())
+        {
+            @Html.AntiForgeryToken()
+            @Html.HiddenFor(model => model.Id)
+            <div>
+                @Html.LabelFor(model => model.NameTeam)
+                <p>@Html.EditorFor(model => model.NameTeam)</p>
+            </div>
+         
+            <div>
+                @Html.LabelFor(model => model.Player1)
+                <p>@Html.EditorFor(model => model.Player1)</p>
+            </div>
+            <div>
+                @Html.LabelFor(model => model.Player2)
+                <p>@Html.EditorFor(model => model.Player2)</p>
+            </div>
+            <div>
+                @Html.LabelFor(model => model.Player3)
+                <p>@Html.EditorFor(model => model.Player3)</p>
+            </div>
+            <div>
+                @Html.LabelFor(model => model.Player4)
+                <p>@Html.EditorFor(model => model.Player4)</p>
+            </div>
+            <div>
+                @Html.LabelFor(model => model.Player5)
+                <p>@Html.EditorFor(model => model.Player5)</p>
+            </div>
+            <p><input type="submit" value="Сохранить" /></p>
+        }
+    </div>

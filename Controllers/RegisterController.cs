@@ -9,7 +9,7 @@ using basket.ApplicationServices;
 
 namespace basKet.Controllers
 {
-    public class RegisterController : Controller
+    public class RegisterController : System.Web.Mvc.Controller
     {
         private LoginService loginService = new LoginService();
 

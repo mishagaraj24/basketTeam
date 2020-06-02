@@ -11,7 +11,7 @@ using System.Security.Principal;
 
 namespace basKet.Controllers
 {
-    public class LoginController : Controller
+    public class LoginController : System.Web.Mvc.Controller
     {
         private LoginService loginSerivce = new LoginService();
 

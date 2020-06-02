@@ -44,7 +44,7 @@
                             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                                 <ul class="navbar-nav mr-auto">
                                     <li class="nav-item active">
-                                        <a href="Index.html" class="nav-link active">Home</a>
+                                        @Html.ActionLink("Home", "Index", "Home",null, new { @class = "nav-link active" })
                                     </li>
                                     <li class="nav-item">
                                         <a href="about.html" class="nav-link">About us</a>
@@ -55,11 +55,10 @@
                                     </li>
                                     <li class="nav-item dropdown">
                                         <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                            Pages
+                                            Teams
                                         </a>
                                         <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                            <a class="dropdown-item" href="elements.html">Elements</a>
-                                            <a class="dropdown-item" href="single-blog.html">Single blog</a>
+                                            @Html.ActionLink("Добавить", "Index", "Teams", new { }, new { @class = "viewDialog", data_dialog_title = "Создание модели" })
                                         </div>
                                     </li>
 

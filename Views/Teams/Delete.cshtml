@@ -1,0 +1,15 @@
+﻿@model basKet.Models.Comanda
+
+<h3>Вы действительно хотите удалить данную команду?</h3>
+<div>
+    <p>id: @Html.DisplayFor(m => m.Id)</p>
+    <p>Команду: @Html.DisplayFor(m => m.NameTeam)</p>
+  
+
+    @using (Html.BeginForm())
+    {
+        @Html.AntiForgeryToken()
+
+        <input type="submit" value="Удалить" />
+    }
+</div>

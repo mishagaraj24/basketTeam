@@ -1,0 +1,37 @@
+﻿
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>BasketBall || @ViewBag.Title </title>
+    <link rel="icon" href="~/Content/img/favicon.png">
+    @Styles.Render("~/Content/css")
+    <link href='@Url.Content("~/Content/jquery-ui.css")' rel="stylesheet" type="text/css"
+
+</head>
+<body>
+    <!---Header-->>
+    <div class="sub_header">
+
+        @Html.Partial("_Header")
+    </div>
+    <div class="main_menu">
+
+        @Html.Partial("_Navigation")
+
+    </div>
+    @RenderBody()
+    <section class="footer-area section_padding">
+
+
+        @Html.Partial("_Footer")
+
+    </section>
+
+
+
+</body>
+</html>

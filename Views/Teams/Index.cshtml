@@ -1,0 +1,59 @@
+﻿@model IEnumerable<basKet.Models.Comanda>
+@{
+    Layout = "~/Views/Shared/_TLayout.cshtml";
+
+}
+<html>
+<head>
+    <title></title>
+   
+    
+</head>
+<body>
+    <h1>Teams</h1>
+    <table class="table">
+            @foreach (var p in Model)
+            {
+                <tr>
+                    <h2>@p.NameTeam </h2>
+                        <ul class="breadcrumb">
+                             <li class ="active">@Html.ActionLink("Смотреть", "Details", "Teams", new { id = p.Id },
+                                new { @class = "viewDialog", button = "Описание команды" })</li>/
+                         <li> @Html.ActionLink("Изменить", "Edit", "Teams", new { id = p.Id },
+                                new { @class = "viewDialog", data_dialog_title = "Редактирование команды" }) </li>/
+                         <li> @Html.ActionLink("Удалить", "Delete", "Teams", new { id = p.Id },
+                                new { @class = "viewDialog", data_dialog_title = "Удаление команды" })</li>
+                        </ul>
+                   
+                </tr>
+
+            }
+            </tbody>
+    </table>
+     <ul class="breadcrumb">
+        <h5> @Html.ActionLink("Добавить", "Create", "Teams", new { }, new { @class = " viewDialog  ", data_dialog_title = "Создание команды" })</h5></ul>
+                <script src='@Url.Content("~/Scripts/jquery-1.12.1.min.js")' type="text/javascript"></script>
+                <script src='@Url.Content("~/Scripts/jquery-ui-1.12.1.min.js")' type="text/javascript"></script>
+                <script>
+                    $(document).ready(function () {
+
+                        $.ajaxSetup({ cache: false });
+
+                        $(".viewDialog").on("click", function (e) {
+                            e.preventDefault();
+
+                            $("<div></div>")
+                                .addClass("dialog")
+                                .appendTo("body")
+                                .dialog({
+                                    title: $(this).attr("data-dialog-title"),
+                                    close: function () { $(this).remove() },
+                                    modal: true
+                                })
+                                .load(this.href);
+                        });
+                    });
+                </script>
+
+</body>
+</html>

@@ -5,7 +5,7 @@ using System.Web.Routing;
 
 namespace basKet.Controllers
 {
-    public class BaseController : Controller
+    public class BaseController : System.Web.Mvc.Controller
     {
         public ContextIdentity AuthorizationContext { get; set; }
 
