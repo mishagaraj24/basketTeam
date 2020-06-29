@@ -1,14 +1,11 @@
-﻿using System.ComponentModel.DataAnnotations;
+﻿using basKet.Models;
+using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 
 namespace basKet.Controllers
 {
-    public class User
+    public class User: BaseUser
     {
-        public long Id { get; set; }
-
-        [Required]
-        public string Username { get; set; }
 
         [Required]
         [DataType(DataType.Password)]

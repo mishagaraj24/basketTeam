@@ -13,9 +13,11 @@ namespace basKet
           
 
             bundles.Add(new ScriptBundle("~/Scripts/").Include(
-                       "~/Scripts/jquery-ui-1.12.1.js",
-                       "~/Scripts/jquery-ui-1.12.1.min.js",
-                    "~/Scripts/jquery-1.12.1.min.js",
+                      "~/Scripts/util.js",
+                      "~/Scripts/jquery.signalR-2.4.1.js",
+                      "~/Scripts/jquery-ui-1.12.1.js",
+                      "~/Scripts/jquery-ui-1.12.1.min.js",
+                      "~/Scripts/jquery-1.12.1.min.js",
                       "~/Scripts/popper.min.js",
                       "~/Scripts/bootstrap.min.js",
                       "~/Scripts/aos.js",
