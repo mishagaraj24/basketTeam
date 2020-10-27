@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "nJ9g86thUzW7P+Z2+P0iS9NvDaAa6BBbvLbnhiPnKMfNKjLqej2olUsI2LI2WJBSD3/cEm+Wjdq/2s7Jyk0ADQ==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\user\\Desktop\\ВЕБ\\basket.Infrastructure\\basket.Infrastructure.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\user\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\user\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}

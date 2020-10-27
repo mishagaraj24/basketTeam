@@ -1,0 +1,9 @@
+C:\Users\user\Desktop\ВЕБ\basket.Models\obj\Debug\netstandard2.0\basket.Models.csprojAssemblyReference.cache
+C:\Users\user\Desktop\ВЕБ\basket.Models\obj\Debug\netstandard2.0\basket.Models.csproj.CoreCompileInputs.cache
+C:\Users\user\Desktop\ВЕБ\basket.Models\obj\Debug\netstandard2.0\basket.Models.AssemblyInfoInputs.cache
+C:\Users\user\Desktop\ВЕБ\basket.Models\obj\Debug\netstandard2.0\basket.Models.AssemblyInfo.cs
+C:\Users\user\Desktop\ВЕБ\basket.Models\bin\Debug\netstandard2.0\basket.Models.deps.json
+C:\Users\user\Desktop\ВЕБ\basket.Models\bin\Debug\netstandard2.0\basket.Models.dll
+C:\Users\user\Desktop\ВЕБ\basket.Models\bin\Debug\netstandard2.0\basket.Models.pdb
+C:\Users\user\Desktop\ВЕБ\basket.Models\obj\Debug\netstandard2.0\basket.Models.dll
+C:\Users\user\Desktop\ВЕБ\basket.Models\obj\Debug\netstandard2.0\basket.Models.pdb

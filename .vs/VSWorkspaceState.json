@@ -1,0 +1,16 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\basket.ApplicationServices",
+    "\\basket.ApplicationServices\\bin",
+    "\\basket.ApplicationServices\\obj",
+    "\\basket.ApplicationServices\\obj\\Debug",
+    "\\basket.ApplicationServices\\obj\\Debug\\netstandard2.0",
+    "\\basket.Models",
+    "\\basket.Models\\bin",
+    "\\basket.Models\\bin\\Debug",
+    "\\basket.Models\\bin\\Debug\\netstandard2.0"
+  ],
+  "SelectedNode": "\\basket.Models\\bin\\Debug\\netstandard2.0\\basket.Models.deps.json",
+  "PreviewInSolutionExplorer": false
+}

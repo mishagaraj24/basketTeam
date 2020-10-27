@@ -1,0 +1,13 @@
+C:\Users\user\Desktop\ВЕБ\basket.DataAccess\bin\Debug\netstandard2.0\basket.DataAccess.deps.json
+C:\Users\user\Desktop\ВЕБ\basket.DataAccess\bin\Debug\netstandard2.0\basket.DataAccess.dll
+C:\Users\user\Desktop\ВЕБ\basket.DataAccess\bin\Debug\netstandard2.0\basket.DataAccess.pdb
+C:\Users\user\Desktop\ВЕБ\basket.DataAccess\bin\Debug\netstandard2.0\System.ComponentModel.DataAnnotations.dll
+C:\Users\user\Desktop\ВЕБ\basket.DataAccess\bin\Debug\netstandard2.0\System.Configuration.dll
+C:\Users\user\Desktop\ВЕБ\basket.DataAccess\bin\Debug\netstandard2.0\System.Security.dll
+C:\Users\user\Desktop\ВЕБ\basket.DataAccess\obj\Debug\netstandard2.0\basket.DataAccess.AssemblyInfoInputs.cache
+C:\Users\user\Desktop\ВЕБ\basket.DataAccess\obj\Debug\netstandard2.0\basket.DataAccess.AssemblyInfo.cs
+C:\Users\user\Desktop\ВЕБ\basket.DataAccess\obj\Debug\netstandard2.0\basket.DataAccess.csproj.CopyComplete
+C:\Users\user\Desktop\ВЕБ\basket.DataAccess\obj\Debug\netstandard2.0\basket.DataAccess.dll
+C:\Users\user\Desktop\ВЕБ\basket.DataAccess\obj\Debug\netstandard2.0\basket.DataAccess.pdb
+C:\Users\user\Desktop\ВЕБ\basket.DataAccess\obj\Debug\netstandard2.0\basket.DataAccess.csprojAssemblyReference.cache
+C:\Users\user\Desktop\ВЕБ\basket.DataAccess\obj\Debug\netstandard2.0\basket.DataAccess.csproj.CoreCompileInputs.cache

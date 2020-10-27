@@ -1,0 +1,8 @@
+C:\Users\user\Desktop\ВЕБ\basket.ApplicationServices\obj\Debug\netstandard2.0\basket.ApplicationServices.AssemblyInfoInputs.cache
+C:\Users\user\Desktop\ВЕБ\basket.ApplicationServices\obj\Debug\netstandard2.0\basket.ApplicationServices.AssemblyInfo.cs
+C:\Users\user\Desktop\ВЕБ\basket.ApplicationServices\obj\Debug\netstandard2.0\basket.ApplicationServices.csproj.CoreCompileInputs.cache
+C:\Users\user\Desktop\ВЕБ\basket.ApplicationServices\bin\Debug\netstandard2.0\basket.ApplicationServices.deps.json
+C:\Users\user\Desktop\ВЕБ\basket.ApplicationServices\bin\Debug\netstandard2.0\basket.ApplicationServices.dll
+C:\Users\user\Desktop\ВЕБ\basket.ApplicationServices\bin\Debug\netstandard2.0\basket.ApplicationServices.pdb
+C:\Users\user\Desktop\ВЕБ\basket.ApplicationServices\obj\Debug\netstandard2.0\basket.ApplicationServices.dll
+C:\Users\user\Desktop\ВЕБ\basket.ApplicationServices\obj\Debug\netstandard2.0\basket.ApplicationServices.pdb
